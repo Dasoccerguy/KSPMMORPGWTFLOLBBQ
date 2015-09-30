@@ -10,7 +10,7 @@ GAME
 	scene = 5
 	editor = None
 	flag = Squad/Flags/default
-	launchID = 2
+	launchID = 3
 	PARAMETERS
 	{
 		preset = Normal
@@ -87,74 +87,266 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 173.658558349614
+		update = 662.545172119125
 		CONTRACTS
 		{
 			CONTRACT
 			{
-				guid = 320e0590-9896-48d5-8143-5a038af36c00
+				guid = 85d0281c-254b-4a21-a8e7-f7e6796c8832
+				type = TourismContract
+				prestige = 0
+				seed = 1978044170
+				state = Offered
+				agent = Rockomax Conglomerate
+				deadlineType = Floating
+				expiryType = Floating
+				values = 96579.4803726839,41142858.6387633,0,0,0,0,20.48267,10,96869.2189310335,0,0,0
+				gender = 2
+				kerbalName = Eileen Kerman
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 9750,0,0,0,0
+					kerbalName = Eileen Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 3250,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Eileen Kerman
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 7f5c4b0c-0c9d-4d05-8d4b-8651f2823eee
+				type = TourismContract
+				prestige = 0
+				seed = 1978044143
+				state = Offered
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = Floating
+				expiryType = Floating
+				values = 43200,46008000,0,0,0,0,21.8,10,43489.7385583496,0,0,0
+				gender = 1
+				kerbalName = Mellong Kerman
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 9750,0,0,0,0
+					kerbalName = Mellong Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 3250,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Mellong Kerman
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = ea84dc64-2f0f-43b1-80f8-f3cb86f7c98e
+				type = TourismContract
+				prestige = 0
+				seed = 79511814
+				state = Offered
+				agent = Sean's Cannery
+				deadlineType = Floating
+				expiryType = Floating
+				values = 125825.248718262,44667963.2949829,0,0,0,0,19.04762,10,126487.793890381,0,0,0
+				gender = 0
+				kerbalName = Edgel Kerman
+				kerbalName = Lanne Kerman
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 9750,0,0,0,0
+					kerbalName = Edgel Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 3250,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Edgel Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 9750,0,0,0,0
+					kerbalName = Lanne Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 3250,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Lanne Kerman
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 07707efc-2373-47d5-bb4f-4d79bebde18b
+				type = SurveyContract
+				prestige = 0
+				seed = 1978044158
+				state = Offered
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = Floating
+				expiryType = Floating
+				values = 21600,46008000,6880.73381781578,12155.9630781412,7500,0,2.18,2,21889.7385583496,0,0,0
+				targetBody = 1
+				centerLatitude = 17.8522920474306
+				centerLongitude = 280.788364210179
+				surveyTitle = Perform visual surveys of Kerbin.
+				randomTopic = Kerbin
+				surveyBriefing = There are places on Kerbin that we don't know much about, head there and see what you can see.
+				surveyDebriefing = These results are fantastic! We know so much more about Kerbin! We are forwarding funds now.
+				focusedSurvey = True
+				PARAM
+				{
+					name = SurveyWaypointParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					actionDescription = Take a crew report
+					experiment = crewReport
+					flightThreshold = 19400
+					band = 2
+					clusterState = MIXED
+					targetBody = 1
+					verified = True
+					wpSeed = 998359650
+					wpIndex = 0
+					wpTexture = report
+					wpLatitude = 21.1934685462813
+					wpLongitude = 279.133479883407
+					wpLandlocked = False
+				}
+			}
+			CONTRACT
+			{
+				guid = 2219bbb5-31e3-4ad0-af2f-389a505940f5
 				type = RecordTrackContract
 				prestige = 0
-				seed = 30563058
+				seed = 2044897920
 				state = Active
 				agent = Kerbin World-Firsts Record-Keeping Society
 				deadlineType = None
 				expiryType = None
 				autoAccept = True
-				values = 0,0,0,2889.90820348263,0,0,1.09,0,0,0.08,0,0
+				values = 0,0,0,9825.68789184093,0,0,2.18,0,0,508.484161376956,0,0
 				trackType = DISTANCE
-				trackValue = 5000
+				trackValue = 17000
 				PARAM
 				{
 					name = RecordTrackingParameter
 					state = Incomplete
 					values = 0,0,0,0,0
 					trackType = DISTANCE
-					trackValue = 5000
+					trackValue = 17000
 				}
 			}
 			CONTRACT
 			{
-				guid = 4b10f2a7-95b9-4755-9cf1-720ebba1ac46
-				type = WorldFirstContract
-				prestige = 1
-				seed = 30563107
+				guid = 6c3180dc-a480-4bc8-855e-4273cb0893e8
+				type = PartTest
+				prestige = 0
+				seed = 1978044160
 				state = Offered
-				agent = Kerbin World-Firsts Record-Keeping Society
-				deadlineType = None
+				agent = Research & Development Department
+				deadlineType = Floating
 				expiryType = Floating
-				values = 129600,0,18644.0669298172,49152.5400876999,22000,8,18.88,0,129600.08,0,0,0
-				targetBody = 1
-				targetType = REACHSPACE
+				values = 43200,9201600,1800,4500,1800,1,1,1,43489.7385583496,0,0,0
+				part = solidBooster
+				dest = 1
+				sit = PRELAUNCH
+				exp = True
 				PARAM
 				{
-					name = ProgressTrackingParameter
+					name = PartTest
+					id = runTest
 					state = Incomplete
 					values = 0,0,0,0,0
-					targetBody = 1
-					targetType = REACHSPACE
+					part = solidBooster
+					notes = To perform the test, activate the part through the staging sequence when all test conditions are met.
+					PARAM
+					{
+						name = ReachDestination
+						id = testDestination
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						dest = 1
+						title = 
+					}
+					PARAM
+					{
+						name = ReachSituation
+						id = testSituation
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						sit = PRELAUNCH
+						title = 
+					}
 				}
 			}
 			CONTRACT
 			{
-				guid = 7e4cfd0d-ecbb-4a8f-825e-124d4e89717f
-				type = WorldFirstContract
-				prestige = 1
-				seed = 30563085
+				guid = edeb86b0-c420-4d00-8391-e4df2d79aef3
+				type = PartTest
+				prestige = 0
+				seed = 1978044214
 				state = Offered
-				agent = Kerbin World-Firsts Record-Keeping Society
-				deadlineType = None
+				agent = Research & Development Department
+				deadlineType = Floating
 				expiryType = Floating
-				values = 129600,0,23305.0836622715,61440.6751096249,27500,10,23.6,0,129600.08,0,0,0
-				targetBody = 1
-				targetType = SCIENCE
+				values = 21600,9201600,1800,4500,1800,1,1,1,21889.7385583496,0,0,0
+				part = solidBooster.sm
+				dest = 1
+				sit = PRELAUNCH
+				exp = False
 				PARAM
 				{
-					name = ProgressTrackingParameter
+					name = PartTest
+					id = runTest
 					state = Incomplete
 					values = 0,0,0,0,0
-					targetBody = 1
-					targetType = SCIENCE
+					part = solidBooster.sm
+					notes = To perform the test, activate the part through the staging sequence when all test conditions are met.
+					PARAM
+					{
+						name = ReachDestination
+						id = testDestination
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						dest = 1
+						title = 
+					}
+					PARAM
+					{
+						name = ReachSituation
+						id = testSituation
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						sit = PRELAUNCH
+						title = 
+					}
 				}
 			}
 			CONTRACT
@@ -181,48 +373,25 @@ GAME
 			}
 			CONTRACT
 			{
-				guid = 87878507-4c84-43b5-82f2-a60c5411d39a
+				guid = a9589cc1-1957-47ea-b705-b2e5bb229fb0
 				type = RecordTrackContract
-				prestige = 0
-				seed = 1310303790
+				prestige = 2
+				seed = 168507684
 				state = Active
 				agent = Kerbin World-Firsts Record-Keeping Society
 				deadlineType = None
 				expiryType = None
 				autoAccept = True
-				values = 0,0,0,10403.6695325375,0,0,3.27,0,0,42.9600000000012,0,0
+				values = 0,0,0,74409.4471335411,0,0,26.67,0,0,232.998558349644,0,0
 				trackType = SPEED
-				trackValue = 450
+				trackValue = 2500
 				PARAM
 				{
 					name = RecordTrackingParameter
 					state = Incomplete
 					values = 0,0,0,0,0
 					trackType = SPEED
-					trackValue = 450
-				}
-			}
-			CONTRACT
-			{
-				guid = 7fda1d40-0188-43f4-8de9-257f70645901
-				type = RecordTrackContract
-				prestige = 0
-				seed = 1392821023
-				state = Active
-				agent = Kerbin World-Firsts Record-Keeping Society
-				deadlineType = None
-				expiryType = None
-				autoAccept = True
-				values = 0,0,0,6192.6604360342,0,0,2.18,0,0,47.8600000000019,0,0
-				trackType = ALTITUDE
-				trackValue = 7500
-				PARAM
-				{
-					name = RecordTrackingParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					trackType = ALTITUDE
-					trackValue = 7500
+					trackValue = 2500
 				}
 			}
 			CONTRACT_FINISHED
@@ -246,6 +415,222 @@ GAME
 					values = 0,0,0,0,0
 					targetBody = 1
 					targetType = FIRSTLAUNCH
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = 66095761-4733-4db8-b465-cd6a4dbb6422
+				type = RecordTrackContract
+				prestige = 0
+				seed = 245622133
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = None
+				autoAccept = True
+				values = 0,0,0,9495.41266858578,0,0,2.18,0,0,227.298558349641,0,0
+				trackType = ALTITUDE
+				trackValue = 11500
+				PARAM
+				{
+					name = RecordTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					trackType = ALTITUDE
+					trackValue = 11500
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = 6585e7ea-7672-4de4-918e-bc4f6fb619d8
+				type = RecordTrackContract
+				prestige = 1
+				seed = 194381660
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = None
+				autoAccept = True
+				values = 0,0,0,18114.4059374928,0,0,5.900001,0,0,232.218558349644,0,0
+				trackType = ALTITUDE
+				trackValue = 19000
+				PARAM
+				{
+					name = RecordTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					trackType = ALTITUDE
+					trackValue = 19000
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = 0c4974a7-a489-4e03-971d-6207e9040ed9
+				type = RecordTrackContract
+				prestige = 1
+				seed = 391592995
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = None
+				autoAccept = True
+				values = 0,0,0,25264.4056050777,0,0,8.26,0,0,238.518558349647,0,0
+				trackType = ALTITUDE
+				trackValue = 26500
+				PARAM
+				{
+					name = RecordTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					trackType = ALTITUDE
+					trackValue = 26500
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = de9202ff-af65-477d-b6e9-a12eada59de5
+				type = RecordTrackContract
+				prestige = 0
+				seed = 30563054
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = None
+				autoAccept = True
+				values = 0,0,0,2889.90820348263,0,0,1.09,0,0,0.08,0,0
+				trackType = ALTITUDE
+				trackValue = 3500
+				PARAM
+				{
+					name = RecordTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					trackType = ALTITUDE
+					trackValue = 3500
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = 7fda1d40-0188-43f4-8de9-257f70645901
+				type = RecordTrackContract
+				prestige = 0
+				seed = 1392821023
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = None
+				autoAccept = True
+				values = 0,0,0,6192.6604360342,0,0,2.18,0,0,47.8600000000019,0,0
+				trackType = ALTITUDE
+				trackValue = 7500
+				PARAM
+				{
+					name = RecordTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					trackType = ALTITUDE
+					trackValue = 7500
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = c92d0601-1d01-4984-8760-7c8c3938f074
+				type = RecordTrackContract
+				prestige = 2
+				seed = 319628828
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = None
+				autoAccept = True
+				values = 0,0,0,74409.4471335411,0,0,26.67,0,0,244.75855834965,0,0
+				trackType = ALTITUDE
+				trackValue = 70000
+				PARAM
+				{
+					name = RecordTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					trackType = ALTITUDE
+					trackValue = 70000
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = f69b75d9-54aa-42a9-a3cf-63c7b9c4ab75
+				type = RecordTrackContract
+				prestige = 0
+				seed = 2097098447
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = None
+				autoAccept = True
+				values = 0,0,0,6357.79804766178,0,0,2.18,0,0,381.292904052738,0,0
+				trackType = DISTANCE
+				trackValue = 11000
+				PARAM
+				{
+					name = RecordTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					trackType = DISTANCE
+					trackValue = 11000
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = 320e0590-9896-48d5-8143-5a038af36c00
+				type = RecordTrackContract
+				prestige = 0
+				seed = 30563058
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = None
+				autoAccept = True
+				values = 0,0,0,2889.90820348263,0,0,1.09,0,0,0.08,0,0
+				trackType = DISTANCE
+				trackValue = 5000
+				PARAM
+				{
+					name = RecordTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					trackType = DISTANCE
+					trackValue = 5000
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = dc85baad-4a69-47d3-a4d3-41db7b0671a9
+				type = RecordTrackContract
+				prestige = 1
+				seed = 160299717
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = None
+				autoAccept = True
+				values = 0,0,0,28029.6597138047,0,0,8.26,0,0,228.818558349642,0,0
+				trackType = SPEED
+				trackValue = 1050
+				PARAM
+				{
+					name = RecordTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					trackType = SPEED
+					trackValue = 1050
 				}
 			}
 			CONTRACT_FINISHED
@@ -298,26 +683,50 @@ GAME
 			}
 			CONTRACT_FINISHED
 			{
-				guid = de9202ff-af65-477d-b6e9-a12eada59de5
+				guid = 87878507-4c84-43b5-82f2-a60c5411d39a
 				type = RecordTrackContract
 				prestige = 0
-				seed = 30563054
+				seed = 1310303790
 				state = Completed
 				agent = Kerbin World-Firsts Record-Keeping Society
 				deadlineType = None
 				expiryType = None
 				autoAccept = True
-				values = 0,0,0,2889.90820348263,0,0,1.09,0,0,0.08,0,0
-				trackType = ALTITUDE
-				trackValue = 3500
+				values = 0,0,0,10403.6695325375,0,0,3.27,0,0,42.9600000000012,0,0
+				trackType = SPEED
+				trackValue = 450
 				PARAM
 				{
 					name = RecordTrackingParameter
 					enabled = False
 					state = Complete
 					values = 0,0,0,0,0
-					trackType = ALTITUDE
-					trackValue = 3500
+					trackType = SPEED
+					trackValue = 450
+				}
+			}
+			CONTRACT_FINISHED
+			{
+				guid = 1e4ffd01-06ca-4ce1-a296-3b45e57b6403
+				type = RecordTrackContract
+				prestige = 1
+				seed = 40930393
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = None
+				autoAccept = True
+				values = 0,0,0,19925.4228024483,0,0,5.900001,0,0,220.238558349637,0,0
+				trackType = SPEED
+				trackValue = 750
+				PARAM
+				{
+					name = RecordTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					trackType = SPEED
+					trackValue = 750
 				}
 			}
 		}
@@ -326,7 +735,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 44462.8071309329
+		funds = 242719.285522222
 	}
 	SCENARIO
 	{
@@ -356,18 +765,31 @@ GAME
 			}
 			RecordsAltitude
 			{
-				reached = 68.0200000000036
-				record = 6484.40514700522
+				completed = 289.738558349625
+				record = 70000
 			}
 			RecordsSpeed
 			{
-				reached = 50.9000000000024
-				record = 358.043503208722
+				reached = 235.538558349645
+				record = 1292.7173284815
 			}
 			RecordsDistance
 			{
-				reached = 131.859999999994
-				record = 913.866526794595
+				reached = 574.243309326171
+				record = 12326.0881821827
+			}
+			ReachedSpace
+			{
+				completed = 289.738558349625
+				vessel
+				{
+					name = Memes
+					flag = Squad/Flags/default
+				}
+				crew
+				{
+					crews = Valentina Kerman
+				}
 			}
 			Kerbin
 			{
@@ -385,6 +807,19 @@ GAME
 						crews = Jebediah Kerman
 					}
 				}
+				Science
+				{
+					completed = 658.685172119129
+					vessel
+					{
+						name = Memes
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = Valentina Kerman
+					}
+				}
 			}
 		}
 	}
@@ -392,7 +827,7 @@ GAME
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 6
+		sci = 9
 		Tech
 		{
 			id = start
@@ -405,6 +840,25 @@ GAME
 			part = trussPiece1x
 			part = parachuteSingle
 		}
+		Tech
+		{
+			id = engineering101
+			state = Available
+			cost = 5
+			part = Mark1Cockpit
+			part = science.module
+			part = longAntenna
+			part = stackDecoupler
+		}
+		Tech
+		{
+			id = basicRocketry
+			state = Available
+			cost = 5
+			part = liquidEngine
+			part = solidBooster
+			part = fuelTankSmallFlat
+		}
 		Science
 		{
 			id = recovery@KerbinFlew
@@ -414,6 +868,36 @@ GAME
 			sbv = 5
 			sci = 5
 			cap = 6
+		}
+		Science
+		{
+			id = crewReport@KerbinFlyingHigh
+			title = Crew Report from Kerbin's upper atmosphere
+			dsc = 1
+			scv = 1
+			sbv = 0.9
+			sci = 0
+			cap = 4.5
+		}
+		Science
+		{
+			id = crewReport@KerbinInSpaceLow
+			title = Crew Report while in space near Kerbin
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 5
+			cap = 5
+		}
+		Science
+		{
+			id = recovery@KerbinSubOrbited
+			title = Recovery of a vessel after a sub-orbital flight.
+			dsc = 1
+			scv = 0.1666667
+			sbv = 8
+			sci = 8
+			cap = 9.6
 		}
 	}
 	SCENARIO
@@ -425,7 +909,7 @@ GAME
 	{
 		name = Reputation
 		scene = 7, 8, 5, 6
-		rep = 6.539611
+		rep = 72.42154
 	}
 	SCENARIO
 	{
@@ -555,7 +1039,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.0.4
-		UT = 173.658558349614
+		UT = 664.025172119124
 		activeVessel = 0
 		mapViewFiltering = -1026
 	}
@@ -638,6 +1122,94 @@ GAME
 			tour = False
 			state = Available
 			ToD = 0
+			idx = 0
+			CAREER_LOG
+			{
+				flight = 1
+				0 = Flight,Kerbin
+				0 = Suborbit,Kerbin
+				0 = Land,Kerbin
+				0 = Recover
+			}
+			FLIGHT_LOG
+			{
+				flight = 1
+			}
+		}
+		KERBAL
+		{
+			name = Mellong Kerman
+			gender = Male
+			type = Unowned
+			brave = 0.6570556
+			dumb = 0.7966132
+			badS = False
+			tour = False
+			state = Assigned
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Eileen Kerman
+			gender = Female
+			type = Unowned
+			brave = 0.902028
+			dumb = 0.3057881
+			badS = False
+			tour = False
+			state = Assigned
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Edgel Kerman
+			gender = Male
+			type = Unowned
+			brave = 0.9776954
+			dumb = 0.6602098
+			badS = False
+			tour = False
+			state = Assigned
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Lanne Kerman
+			gender = Female
+			type = Unowned
+			brave = 0.4950171
+			dumb = 0.7011966
+			badS = False
+			tour = False
+			state = Assigned
+			ToD = 0
 			idx = -1
 			CAREER_LOG
 			{
@@ -651,38 +1223,6 @@ GAME
 	}
 	MESSAGESYSTEM
 	{
-		flash = True
-		MESSAGE
-		{
-			title = Contract Complete
-			message = <b>Set altitude record of 3,500m.</>~n~nAltitude record reached! Well done!~n~n<b><#8BED8B>Completion Rewards:</></> ~n<#B4D455>£2,890   </>~n<#E0D503>¡1   </>~n~n
-			color = 2
-			icon = 3
-			read = False
-		}
-		MESSAGE
-		{
-			title = Contract Complete
-			message = <b>Set speed record of 300m/s.</>~n~nSpeed record shattered! Good job!~n~n<b><#8BED8B>Completion Rewards:</></> ~n<#B4D455>£6,936   </>~n<#E0D503>¡2   </>~n~n
-			color = 2
-			icon = 3
-			read = False
-		}
-		MESSAGE
-		{
-			title = Contract Complete
-			message = <b>Set speed record of 150m/s.</>~n~nSpeed record shattered! Good job!~n~n<b><#8BED8B>Completion Rewards:</></> ~n<#B4D455>£3,468   </>~n<#E0D503>¡1   </>~n~n
-			color = 2
-			icon = 3
-			read = False
-		}
-		MESSAGE
-		{
-			title = Contract Complete
-			message = <b>Launch our first vessel!</>~n~nA very nominal launch! We couldn't have asked for more! Well, we could've, and we will at some point.~n~n<b><#8BED8B>Completion Rewards:</></> ~n<#B4D455>£5,321   </>~n<#6DCFF6>©1   </>~n<#E0D503>¡2   </>~n~n
-			color = 2
-			icon = 3
-			read = False
-		}
+		flash = False
 	}
 }

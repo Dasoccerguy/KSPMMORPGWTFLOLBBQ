@@ -10,7 +10,7 @@ GAME
 	scene = 5
 	editor = None
 	flag = Squad/Flags/default
-	launchID = 18
+	launchID = 19
 	PARAMETERS
 	{
 		preset = Normal
@@ -87,9 +87,474 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 624191.544348184
+		update = 1709162.04505112
 		CONTRACTS
 		{
+			CONTRACT
+			{
+				guid = ba655ea1-0ddc-4bf0-996d-3d5596cbcfb7
+				type = TourismContract
+				prestige = 0
+				seed = 416287687
+				state = Offered
+				agent = STEADLER Engineering Corps
+				deadlineType = Floating
+				expiryType = Floating
+				values = 129600,46008000,0,0,0,0,21.16191,11,1838360.37190145,0,0,0
+				gender = 1
+				kerbalName = Obming Kerman
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 19500,0,0,0,0
+					kerbalName = Obming Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 3250,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Obming Kerman
+					}
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 3250,0,0,0,0
+						targetBody = 1
+						targetType = Orbit
+						kerbalName = Obming Kerman
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 2e23fa1b-e7bd-4b93-a6b9-888f07f557b8
+				type = TourismContract
+				prestige = 0
+				seed = 416287695
+				state = Offered
+				agent = Dinkelstein Kerman's Construction Emporium
+				deadlineType = Floating
+				expiryType = Floating
+				values = 129600,46008000,0,0,0,0,18.04179,9.756098,1838360.37190145,0,0,0
+				gender = 0
+				kerbalName = Luise Kerman
+				kerbalName = Hudvan Kerman
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 9750,0,0,0,0
+					kerbalName = Luise Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 3250,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Luise Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 9750,0,0,0,0
+					kerbalName = Hudvan Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 3250,0,0,0,0
+						targetBody = 1
+						targetType = Orbit
+						kerbalName = Hudvan Kerman
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 202c62f9-8fea-4846-98c7-1d0c450b72f6
+				type = TourismContract
+				prestige = 0
+				seed = 416287688
+				state = Offered
+				agent = Zaltonic Electronics
+				deadlineType = Floating
+				expiryType = Floating
+				values = 64800,46008000,0,0,0,0,17.96098,9.52381,1773560.37190145,0,0,0
+				gender = 0
+				kerbalName = Katchelle Kerman
+				kerbalName = Bilwell Kerman
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 9750,0,0,0,0
+					kerbalName = Katchelle Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 3250,0,0,0,0
+						targetBody = 1
+						targetType = Orbit
+						kerbalName = Katchelle Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 9750,0,0,0,0
+					kerbalName = Bilwell Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 3250,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Bilwell Kerman
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 782b942c-440e-4d99-a852-8162a9f44242
+				type = PlantFlag
+				prestige = 0
+				seed = 416287691
+				state = Active
+				agent = C7 Aerospace Division
+				deadlineType = Floating
+				expiryType = Floating
+				values = 64800,92016000,46000,116000,46000,0,14,7,1773560.37190145,1709165.64505112,93725165.6450511,0
+				body = 2
+				PARAM
+				{
+					name = PlantFlag
+					state = Incomplete
+					values = 0,0,0,0,0
+					body = 2
+				}
+			}
+			CONTRACT
+			{
+				guid = 58e03563-f4ef-4db9-b97b-db2bc0d1d424
+				type = SatelliteContract
+				prestige = 0
+				seed = 416287694
+				state = Offered
+				agent = Maxo Construction Toys
+				deadlineType = Floating
+				expiryType = Floating
+				values = 108000,92016000,32000,82000,32000,0,10,5,1816760.37190145,0,0,0
+				targetBody = 2
+				deviation = 7
+				orbitType = 3
+				PARAM
+				{
+					name = ProbeSystemsParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					hasAntenna = False
+					hasPowerGenerator = False
+					launchID = 0
+				}
+				PARAM
+				{
+					name = SpecificOrbitParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					targetBody = 2
+					deviationWindow = 7
+					orbitType = 3
+					inclination = 180
+					eccentricity = 0.0099096818780293
+					sma = 429621.906737439
+					lan = 249.738939272151
+					argumentOfPeriapsis = 63.3734964506141
+					meanAnomalyAtEpoch = 1.00380469531248
+					epoch = 0
+				}
+				PARAM
+				{
+					name = StabilityParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					holdSeconds = 10
+				}
+			}
+			CONTRACT
+			{
+				guid = 815ecf88-d086-4e48-93aa-e0ef4d3b5077
+				type = CollectScience
+				prestige = 0
+				seed = 316104168
+				state = Active
+				agent = Rockomax Conglomerate
+				deadlineType = Floating
+				expiryType = Floating
+				values = 96579.4803726839,102857146.596908,26907.5109480055,69062.6082968693,27983.8104518652,3,7.168933,3,1805349.85227414,1709165.64505112,104566312.241959,0
+				body = 3
+				location = Surface
+				PARAM
+				{
+					name = CollectScience
+					state = Incomplete
+					values = 0,0,0,0,0
+					body = 3
+					location = Surface
+				}
+			}
+			CONTRACT
+			{
+				guid = 6e52af63-9305-4df8-b2e3-1198c51f3b95
+				type = SurveyContract
+				prestige = 1
+				seed = 416287713
+				state = Offered
+				agent = Maxo Construction Toys
+				deadlineType = Floating
+				expiryType = Floating
+				values = 21600,92016000,75000,132500,75000,0,11,11,1730360.37190145,0,0,0
+				targetBody = 2
+				centerLatitude = 49.1894553868783
+				centerLongitude = 38.2617514292997
+				surveyTitle = Perform temperature scans of the Mun.
+				randomTopic = 2HOT Thermometer
+				surveyBriefing = We want to see how the temperature fluctuates in one particular region of the Mun. Take a few measurements there.
+				surveyDebriefing = It looks like the Mun is a touch warmer than we expected, but this is what we needed.
+				focusedSurvey = False
+				PARAM
+				{
+					name = SurveyWaypointParameter
+					state = Incomplete
+					values = 22000,0,4,4,0
+					actionDescription = Measure the temperature
+					experiment = temperatureScan
+					flightThreshold = 7300
+					band = 1
+					clusterState = SINGLE
+					targetBody = 2
+					verified = True
+					wpSeed = 123030076
+					wpIndex = 0
+					wpTexture = thermometer
+					wpLatitude = 48.7237589863208
+					wpLongitude = 38.8032620377941
+					wpLandlocked = False
+				}
+				PARAM
+				{
+					name = SurveyWaypointParameter
+					state = Incomplete
+					values = 22000,0,4,4,0
+					actionDescription = Measure the temperature
+					experiment = temperatureScan
+					flightThreshold = 9600
+					band = 3
+					clusterState = SINGLE
+					targetBody = 2
+					verified = True
+					wpSeed = 123030076
+					wpIndex = 1
+					wpTexture = thermometer
+					wpLatitude = 13.7649889984622
+					wpLongitude = -1.1433459673198
+					wpLandlocked = False
+				}
+				PARAM
+				{
+					name = SurveyWaypointParameter
+					state = Incomplete
+					values = 22000,0,4,4,0
+					actionDescription = Measure the temperature
+					experiment = temperatureScan
+					flightThreshold = 10900
+					band = 2
+					clusterState = SINGLE
+					targetBody = 2
+					verified = True
+					wpSeed = 123030076
+					wpIndex = 2
+					wpTexture = thermometer
+					wpLatitude = 65.4542946158946
+					wpLongitude = 67.5738816452832
+					wpLandlocked = False
+				}
+				PARAM
+				{
+					name = SurveyWaypointParameter
+					state = Incomplete
+					values = 22000,0,4,4,0
+					actionDescription = Measure the temperature
+					experiment = temperatureScan
+					flightThreshold = 11600
+					band = 2
+					clusterState = SINGLE
+					targetBody = 2
+					verified = True
+					wpSeed = 123030076
+					wpIndex = 3
+					wpTexture = thermometer
+					wpLatitude = 73.8550661323405
+					wpLongitude = 33.1922390393709
+					wpLandlocked = False
+				}
+			}
+			CONTRACT
+			{
+				guid = a174c710-0d43-4f1f-ba90-eccbe0c47266
+				type = SatelliteContract
+				prestige = 1
+				seed = 416287703
+				state = Offered
+				agent = Vac-Co Advanced Suction Systems
+				deadlineType = Floating
+				expiryType = Floating
+				values = 105882.353067398,90211764.8134232,45410.4018064498,128000.572866268,48972.0039253236,11,10.29159,6,1814642.72496884,0,0,0
+				targetBody = 2
+				deviation = 5
+				orbitType = 6
+				PARAM
+				{
+					name = ProbeSystemsParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					hasAntenna = False
+					hasPowerGenerator = False
+					launchID = 0
+				}
+				PARAM
+				{
+					name = SpecificOrbitParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					targetBody = 2
+					deviationWindow = 5
+					orbitType = 6
+					inclination = 165.620175392118
+					eccentricity = 0.178219760776722
+					sma = 494268.338068379
+					lan = 341.699153269501
+					argumentOfPeriapsis = 6.52826812209005
+					meanAnomalyAtEpoch = 1.19842831570061
+					epoch = 0
+				}
+				PARAM
+				{
+					name = PartRequestParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					title = Have a mystery goo unit on the satellite
+					partNames = GooExperiment
+					moduleNames = 
+				}
+				PARAM
+				{
+					name = StabilityParameter
+					state = Incomplete
+					values = 0,0,0,0,0
+					holdSeconds = 10
+				}
+			}
+			CONTRACT
+			{
+				guid = 961ccbc6-4644-4f9f-b68f-8ccae01e4f14
+				type = RecoverAsset
+				prestige = 1
+				seed = 416287711
+				state = Offered
+				agent = Jebediah Kerman's Junkyard and Spacecraft Parts Co
+				deadlineType = Floating
+				expiryType = Floating
+				values = 38571.4282035828,82157142.0736313,50431.0301542282,126737.060834539,64350.0013947487,0,13.62797,11.53846,1747331.80010503,0,0,0
+				targetBody = 2
+				kerbalName = Mircia Kerman
+				partName = landerCabinSmall
+				partID = 0
+				recoveryLocation = 1
+				recoveryType = 1
+				gender = 2
+				PARAM
+				{
+					name = AcquireCrew
+					state = Incomplete
+					values = 14850,0,0,5,0
+					title = Save Mircia Kerman
+					winOn = 0
+				}
+				PARAM
+				{
+					name = RecoverKerbal
+					state = Incomplete
+					values = 0,0,0,0,0
+					title = Recover Mircia Kerman on Kerbin
+					failOn = All
+					winOn = All
+				}
+			}
+			CONTRACT
+			{
+				guid = f2672a16-802f-498b-adac-35f5e9734394
+				type = PartTest
+				prestige = 1
+				seed = 865103033
+				state = Offered
+				agent = O.M.B. Demolition Enterprises
+				deadlineType = Floating
+				expiryType = Floating
+				values = 21600,18403200,36000,99000.0021457672,39600.0008583069,6,10.90909,9,1730752.04505111,0,0,0
+				part = radialDecoupler1-2
+				dest = 2
+				sit = ORBITING
+				exp = True
+				PARAM
+				{
+					name = PartTest
+					id = runTest
+					state = Incomplete
+					values = 0,0,0,0,0
+					part = radialDecoupler1-2
+					notes = To perform the test, activate the part through the staging sequence when all test conditions are met.
+					PARAM
+					{
+						name = ReachDestination
+						id = testDestination
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						dest = 2
+						title = 
+					}
+					PARAM
+					{
+						name = ReachSituation
+						id = testSituation
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						sit = ORBITING
+						title = 
+					}
+					PARAM
+					{
+						name = ReachAltitudeEnvelope
+						id = testAltitudeEnvelope
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						minAlt = 10000
+						maxAlt = 25000
+					}
+				}
+			}
 			CONTRACT
 			{
 				guid = 89321b49-4cf0-4f84-ac76-66caed36fa5b
@@ -135,596 +600,6 @@ GAME
 					values = 37500,0,6,2,0
 					body = 6
 					location = Surface
-				}
-			}
-			CONTRACT
-			{
-				guid = 2f720d8e-86c5-415b-9e32-80d49309ae3e
-				type = SatelliteContract
-				prestige = 0
-				seed = -1330296707
-				state = Offered
-				agent = Moving Parts Experts Group
-				deadlineType = Floating
-				expiryType = Floating
-				values = 103816.212123144,44225706.3644592,32966.3990722656,88700.2134756662,34271.9978027344,0,11.09675,5.769231,626089.965216656,0,0,0
-				targetBody = 1
-				deviation = 7
-				orbitType = 6
-				PARAM
-				{
-					name = ProbeSystemsParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					hasAntenna = False
-					hasPowerGenerator = False
-					launchID = 0
-				}
-				PARAM
-				{
-					name = SpecificOrbitParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetBody = 1
-					deviationWindow = 7
-					orbitType = 6
-					inclination = 10.4645211600369
-					eccentricity = 0.0303455726271509
-					sma = 5944203.55182643
-					lan = 78.3735308788594
-					argumentOfPeriapsis = 181.694529206958
-					meanAnomalyAtEpoch = 4.41098934408425
-					epoch = 0
-				}
-				PARAM
-				{
-					name = StabilityParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					holdSeconds = 10
-				}
-			}
-			CONTRACT
-			{
-				guid = 42c38235-788b-423e-a592-ba6c26bb07bd
-				type = PlantFlag
-				prestige = 0
-				seed = -1330296703
-				state = Offered
-				agent = Kerbin World-Firsts Record-Keeping Society
-				deadlineType = Floating
-				expiryType = Floating
-				values = 129600,92016000,42201.8340826035,106422.016382217,46000,0,15.26,7,651873.753093512,0,0,0
-				body = 2
-				PARAM
-				{
-					name = PlantFlag
-					state = Incomplete
-					values = 0,0,0,0,0
-					body = 2
-				}
-			}
-			CONTRACT
-			{
-				guid = 56201d70-d1d2-4c70-aaef-450a114a0c22
-				type = CollectScience
-				prestige = 0
-				seed = -1330296697
-				state = Offered
-				agent = Rockomax Conglomerate
-				deadlineType = Floating
-				expiryType = Floating
-				values = 115895.376447221,82285717.2775267,21526.0087584044,55250.0866374954,22387.0483614922,3,7.168933,3,638169.129540733,0,0,0
-				body = 2
-				location = Surface
-				PARAM
-				{
-					name = CollectScience
-					state = Incomplete
-					values = 0,0,0,0,0
-					body = 2
-					location = Surface
-				}
-			}
-			CONTRACT
-			{
-				guid = 1813fdf8-fd86-4b5c-8550-6a5282aaa80a
-				type = SatelliteContract
-				prestige = 0
-				seed = -1877208053
-				state = Offered
-				agent = Periapsis Rocket Supplies Co
-				deadlineType = Floating
-				expiryType = Floating
-				values = 43200,46008000,32000,82000,32000,0,12,6,647858.86205548,0,0,0
-				targetBody = 1
-				deviation = 7
-				orbitType = 2
-				PARAM
-				{
-					name = ProbeSystemsParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					hasAntenna = False
-					hasPowerGenerator = False
-					launchID = 0
-				}
-				PARAM
-				{
-					name = SpecificOrbitParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetBody = 1
-					deviationWindow = 7
-					orbitType = 2
-					inclination = 90
-					eccentricity = 0.0484867548837395
-					sma = 9793627.6424767
-					lan = 186.85266676678
-					argumentOfPeriapsis = 266.606830807832
-					meanAnomalyAtEpoch = 0.218806182795252
-					epoch = 0
-				}
-				PARAM
-				{
-					name = StabilityParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					holdSeconds = 10
-				}
-			}
-			CONTRACT
-			{
-				guid = d05896fb-6969-4498-8dd8-2c44bb65e056
-				type = SurveyContract
-				prestige = 0
-				seed = -1877208049
-				state = Offered
-				agent = Periapsis Rocket Supplies Co
-				deadlineType = Floating
-				expiryType = Floating
-				values = 21600,92016000,60000,106000,60000,0,9,9,626258.86205548,0,0,0
-				targetBody = 2
-				centerLatitude = 12.8062239216284
-				centerLongitude = 32.5883749372272
-				surveyTitle = Perform visual surveys of the Mun.
-				randomTopic = the Mun
-				surveyBriefing = There are places on the Mun that we don't know much about, head there and see what you can see.
-				surveyDebriefing = These results are fantastic! We know so much more about the Mun! We are forwarding funds now.
-				focusedSurvey = False
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 14400,0,3,3,0
-					actionDescription = Take an EVA report
-					experiment = evaReport
-					flightThreshold = 7300
-					band = 1
-					clusterState = MIXED
-					targetBody = 2
-					verified = True
-					wpSeed = 2060886013
-					wpIndex = 0
-					wpTexture = eva
-					wpLatitude = 12.9766767988786
-					wpLongitude = 32.6002805548864
-					wpLandlocked = False
-				}
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 14400,0,3,3,0
-					actionDescription = Take an EVA report
-					experiment = evaReport
-					flightThreshold = 7100
-					band = 1
-					clusterState = MIXED
-					targetBody = 2
-					verified = True
-					wpSeed = 2060886013
-					wpIndex = 1
-					wpTexture = eva
-					wpLatitude = 13.0998297279117
-					wpLongitude = 32.6506640832827
-					wpLandlocked = False
-				}
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 17600,0,3,3,0
-					actionDescription = Take a crew report
-					experiment = crewReport
-					flightThreshold = 8500
-					band = 2
-					clusterState = MIXED
-					targetBody = 2
-					verified = True
-					wpSeed = 2060886013
-					wpIndex = 2
-					wpTexture = report
-					wpLatitude = 17.8893743933966
-					wpLongitude = 38.8512067573738
-					wpLandlocked = False
-				}
-			}
-			CONTRACT
-			{
-				guid = 7e3acb84-2ef6-44ef-8126-fa3d720ae559
-				type = SurveyContract
-				prestige = 0
-				seed = -1877208044
-				state = Offered
-				agent = Research & Development Department
-				deadlineType = Floating
-				expiryType = Floating
-				values = 86400,92016000,60000,106000,60000,0,9,9,691058.86205548,0,0,0
-				targetBody = 2
-				centerLatitude = 2.85855258781089
-				centerLongitude = 92.8249444034067
-				surveyTitle = Perform visual surveys of the Mun.
-				randomTopic = the Mun
-				surveyBriefing = There are places on the Mun that we don't know much about, head there and see what you can see.
-				surveyDebriefing = These results are fantastic! We know so much more about the Mun! We are forwarding funds now.
-				focusedSurvey = False
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 16000,0,3,3,0
-					actionDescription = Take a surface sample
-					experiment = surfaceSample
-					flightThreshold = 9900
-					band = 1
-					clusterState = MIXED
-					targetBody = 2
-					verified = True
-					wpSeed = -1319973061
-					wpIndex = 0
-					wpTexture = sample
-					wpLatitude = 2.91338925558981
-					wpLongitude = 92.8274084959793
-					wpLandlocked = False
-				}
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 16000,0,3,3,0
-					actionDescription = Take a surface sample
-					experiment = surfaceSample
-					flightThreshold = 10600
-					band = 1
-					clusterState = MIXED
-					targetBody = 2
-					verified = True
-					wpSeed = -1319973061
-					wpIndex = 1
-					wpTexture = sample
-					wpLatitude = 2.98503436273555
-					wpLongitude = 92.7577699486737
-					wpLandlocked = False
-				}
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 17600,0,3,3,0
-					actionDescription = Take a crew report
-					experiment = crewReport
-					flightThreshold = 8900
-					band = 3
-					clusterState = MIXED
-					targetBody = 2
-					verified = True
-					wpSeed = -1319973061
-					wpIndex = 2
-					wpTexture = report
-					wpLatitude = -5.72573432720363
-					wpLongitude = 83.8861686175376
-					wpLandlocked = False
-				}
-			}
-			CONTRACT
-			{
-				guid = 3d41e607-d9a4-445d-bc0d-59a7e5b9ccc5
-				type = TourismContract
-				prestige = 1
-				seed = -1877208038
-				state = Offered
-				agent = Integrated Integrals
-				deadlineType = Floating
-				expiryType = Floating
-				values = 21176.4706134796,112764706.016779,0,0,0,0,23.63636,12,625835.332668959,0,0,0
-				gender = 0
-				kerbalName = Roicca Kerman
-				kerbalName = Nina Kerman
-				kerbalName = Leabella Kerman
-				kerbalName = Froeny Kerman
-				PARAM
-				{
-					name = KerbalTourParameter
-					state = Incomplete
-					values = 60938,0,0,0,0
-					kerbalName = Roicca Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 10156,0,0,0,0
-						targetBody = 3
-						targetType = Flyby
-						kerbalName = Roicca Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 10156,0,0,0,0
-						targetBody = 2
-						targetType = Suborbit
-						kerbalName = Roicca Kerman
-					}
-				}
-				PARAM
-				{
-					name = KerbalTourParameter
-					state = Incomplete
-					values = 48750,0,0,0,0
-					kerbalName = Nina Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 8125,0,0,0,0
-						targetBody = 2
-						targetType = Orbit
-						kerbalName = Nina Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 8125,0,0,0,0
-						targetBody = 2
-						targetType = Land
-						kerbalName = Nina Kerman
-					}
-				}
-				PARAM
-				{
-					name = KerbalTourParameter
-					state = Incomplete
-					values = 48750,0,0,0,0
-					kerbalName = Leabella Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 8125,0,0,0,0
-						targetBody = 2
-						targetType = Land
-						kerbalName = Leabella Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 8125,0,0,0,0
-						targetBody = 2
-						targetType = Flyby
-						kerbalName = Leabella Kerman
-					}
-				}
-				PARAM
-				{
-					name = KerbalTourParameter
-					state = Incomplete
-					values = 48750,0,0,0,0
-					kerbalName = Froeny Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 8125,0,0,0,0
-						targetBody = 2
-						targetType = Land
-						kerbalName = Froeny Kerman
-					}
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 8125,0,0,0,0
-						targetBody = 2
-						targetType = Orbit
-						kerbalName = Froeny Kerman
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = 19e5d5f0-2e10-4e81-82c5-3991e40bffca
-				type = WorldFirstContract
-				prestige = 1
-				seed = -1877208037
-				state = Offered
-				agent = Kerbin World-Firsts Record-Keeping Society
-				deadlineType = None
-				expiryType = Floating
-				values = 64800,0,23305.0836622715,61440.6751096249,27500,10,23.6,0,669458.86205548,0,0,0
-				targetBody = 1
-				targetType = RENDEZVOUS
-				PARAM
-				{
-					name = ProgressTrackingParameter
-					state = Incomplete
-					values = 0,0,0,0,0
-					targetBody = 1
-					targetType = RENDEZVOUS
-				}
-			}
-			CONTRACT
-			{
-				guid = e33e4ac6-923b-4547-abe2-86e41e78a257
-				type = PartTest
-				prestige = 1
-				seed = -1877208030
-				state = Offered
-				agent = O.M.B. Demolition Enterprises
-				deadlineType = Floating
-				expiryType = Floating
-				values = 43200,9201600,11250,30937.5006705523,12375.0002682209,4,7.272727,5,647858.86205548,0,0,0
-				part = radialDecoupler1-2
-				dest = 1
-				sit = FLYING
-				exp = True
-				PARAM
-				{
-					name = PartTest
-					id = runTest
-					state = Incomplete
-					values = 0,0,0,0,0
-					part = radialDecoupler1-2
-					notes = To perform the test, activate the part through the staging sequence when all test conditions are met.
-					PARAM
-					{
-						name = ReachDestination
-						id = testDestination
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						dest = 1
-						title = 
-					}
-					PARAM
-					{
-						name = ReachSituation
-						id = testSituation
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						sit = FLYING
-						title = 
-					}
-					PARAM
-					{
-						name = ReachAltitudeEnvelope
-						id = testAltitudeEnvelope
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						minAlt = 21000
-						maxAlt = 29000
-					}
-					PARAM
-					{
-						name = ReachSpeedEnvelope
-						id = testSpeedEnvelope
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						minSpd = 200
-						maxSpd = 400
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = 496b061f-a4ed-46c6-a666-74eab46e04a9
-				type = SurveyContract
-				prestige = 1
-				seed = -475272864
-				state = Offered
-				agent = STEADLER Engineering Corps
-				deadlineType = Floating
-				expiryType = Floating
-				values = 21600,92016000,73529.4118523598,142892.16013019,82500.0017881393,0,12.24,13.2,644558.388502587,0,0,0
-				targetBody = 2
-				centerLatitude = -10.9498328174736
-				centerLongitude = 42.9311041640728
-				surveyTitle = Perform visual surveys of the Mun.
-				randomTopic = the Mun
-				surveyBriefing = There are places on the Mun that we don't know much about, head there and see what you can see.
-				surveyDebriefing = These results are fantastic! We know so much more about the Mun! We are forwarding funds now.
-				focusedSurvey = False
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 20000,0,4,4,0
-					actionDescription = Take a surface sample
-					experiment = surfaceSample
-					flightThreshold = 8100
-					band = 1
-					clusterState = MIXED
-					targetBody = 2
-					verified = True
-					wpSeed = -1147290752
-					wpIndex = 0
-					wpTexture = sample
-					wpLatitude = -11.2315021030948
-					wpLongitude = 43.2452673323462
-					wpLandlocked = False
-				}
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 18000,0,4,4,0
-					actionDescription = Take an EVA report
-					experiment = evaReport
-					flightThreshold = 8000
-					band = 1
-					clusterState = MIXED
-					targetBody = 2
-					verified = True
-					wpSeed = -1147290752
-					wpIndex = 1
-					wpTexture = eva
-					wpLatitude = -10.832593916807
-					wpLongitude = 43.0530698041075
-					wpLandlocked = False
-				}
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 22000,0,4,4,0
-					actionDescription = Take a crew report
-					experiment = crewReport
-					flightThreshold = 6800
-					band = 3
-					clusterState = MIXED
-					targetBody = 2
-					verified = True
-					wpSeed = -1147290752
-					wpIndex = 2
-					wpTexture = report
-					wpLatitude = 45.6029936424464
-					wpLongitude = 48.2799500986696
-					wpLandlocked = False
-				}
-				PARAM
-				{
-					name = SurveyWaypointParameter
-					state = Incomplete
-					values = 22000,0,4,4,0
-					actionDescription = Take a crew report
-					experiment = crewReport
-					flightThreshold = 7700
-					band = 2
-					clusterState = MIXED
-					targetBody = 2
-					verified = True
-					wpSeed = -1147290752
-					wpIndex = 3
-					wpTexture = report
-					wpLatitude = -16.7201814161086
-					wpLongitude = 43.049862590285
-					wpLandlocked = False
 				}
 			}
 			CONTRACT_FINISHED
@@ -1291,7 +1166,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 254014.82847148
+		funds = 286425.745677115
 	}
 	SCENARIO
 	{
@@ -1534,13 +1409,107 @@ GAME
 					}
 				}
 			}
+			Minmus
+			{
+				reached = 790094.974734809
+				Flyby
+				{
+					completed = 790094.974734809
+				}
+				Orbit
+				{
+					completed = 798515.664282246
+					vessel
+					{
+						name = CS_Minmus_Lander
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
+				Escape
+				{
+					completed = 894286.247786715
+				}
+				Landing
+				{
+					completed = 834648.775940626
+					vessel
+					{
+						name = CS_Minmus_Lander Debris
+						flag = Squad/Flags/default
+					}
+				}
+				Science
+				{
+					completed = 1709152.04505111
+					vessel
+					{
+						name = CS_Minmus_Lander
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
+				SurfaceEVA
+				{
+					completed = 834734.235940706
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
+				ReturnFromFlyBy
+				{
+					completed = 1709146.5850511
+					vessel
+					{
+						name = CS_Minmus_Lander
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
+				ReturnFromOrbit
+				{
+					completed = 1709146.5850511
+					vessel
+					{
+						name = CS_Minmus_Lander
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
+				ReturnFromSurface
+				{
+					completed = 1709146.5850511
+					vessel
+					{
+						name = CS_Minmus_Lander
+						flag = Squad/Flags/default
+					}
+					crew
+					{
+						crews = Jebediah Kerman
+					}
+				}
+			}
 		}
 	}
 	SCENARIO
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 435.7396
+		sci = 4.778046
 		Tech
 		{
 			id = start
@@ -1730,6 +1699,78 @@ GAME
 			part = JetEngine
 			part = GearFixed
 			part = GearFree
+		}
+		Tech
+		{
+			id = advElectrics
+			state = Available
+			cost = 160
+			part = solarPanels2
+			part = solarPanels4
+			part = solarPanels1
+			part = solarPanels3
+			part = ksp.r.largeBatteryPack
+			part = foldingRadMed
+		}
+		Tech
+		{
+			id = propulsionSystems
+			state = Available
+			cost = 90
+			part = liquidEngineMini
+			part = microEngine
+			part = miniFuelTank
+		}
+		Tech
+		{
+			id = precisionPropulsion
+			state = Available
+			cost = 160
+			part = smallRadialEngine
+			part = radialEngineMini
+			part = omsEngine
+			part = sepMotor1
+			part = toroidalFuelTank
+		}
+		Tech
+		{
+			id = advConstruction
+			state = Available
+			cost = 90
+			part = rocketNoseCone
+			part = radialDecoupler1-2
+			part = radialDecoupler2
+			part = largeAdapter2
+			part = stackTriCoupler
+		}
+		Tech
+		{
+			id = specializedConstruction
+			state = Available
+			cost = 160
+			part = trussAdapter
+			part = stackSeparator
+			part = dockingPort2
+			part = stackPoint1
+			part = stackBiCoupler
+		}
+		Tech
+		{
+			id = spaceExploration
+			state = Available
+			cost = 90
+			part = crewCabin
+			part = sensorBarometer
+			part = ladder1
+		}
+		Tech
+		{
+			id = advExploration
+			state = Available
+			cost = 160
+			part = Large.Crewed.Lab
+			part = telescopicLadder
+			part = telescopicLadderBay
 		}
 		Science
 		{
@@ -2321,6 +2362,76 @@ GAME
 			sci = 32
 			cap = 32
 		}
+		Science
+		{
+			id = mobileMaterialsLab@MinmusSrfLandedLowlands
+			title = Materials Study from Minmus's Lowlands
+			dsc = 1
+			scv = 0.21875
+			sbv = 5
+			sci = 125
+			cap = 160
+		}
+		Science
+		{
+			id = mysteryGoo@MinmusSrfLandedLowlands
+			title = Mystery Goo™ Observation from Minmus's Lowlands
+			dsc = 1
+			scv = 0.05325447
+			sbv = 5
+			sci = 61.53846
+			cap = 65
+		}
+		Science
+		{
+			id = crewReport@MinmusSrfLandedLowlands
+			title = Crew Report from Minmus's Lowlands
+			dsc = 1
+			scv = 0
+			sbv = 5
+			sci = 25
+			cap = 25
+		}
+		Science
+		{
+			id = temperatureScan@MinmusSrfLandedLowlands
+			title = Temperature Scan from Minmus's Lowlands
+			dsc = 1
+			scv = 0
+			sbv = 5
+			sci = 40
+			cap = 40
+		}
+		Science
+		{
+			id = surfaceSample@MinmusSrfLandedLowlands
+			title = Surface Sample from Minmus's Lowlands
+			dsc = 1
+			scv = 0.25
+			sbv = 5
+			sci = 150
+			cap = 200
+		}
+		Science
+		{
+			id = evaReport@MinmusSrfLandedLowlands
+			title = EVA Report from Minmus's Lowlands
+			dsc = 1
+			scv = 0
+			sbv = 5
+			sci = 40
+			cap = 40
+		}
+		Science
+		{
+			id = recovery@MinmusSurfaced
+			title = Recovery of a vessel returned from the surface of Minmus
+			dsc = 1
+			scv = 0.1666667
+			sbv = 37.5
+			sci = 37.5
+			cap = 45
+		}
 	}
 	SCENARIO
 	{
@@ -2501,7 +2612,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.0.4
-		UT = 624197.004348189
+		UT = 1709167.20505112
 		activeVessel = 0
 		mapViewFiltering = -1026
 		VESSEL
@@ -3271,13 +3382,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 10194102.0334689
-				ECC = 0.252671848214191
-				INC = 3.39896068597588
-				LPE = 45.6838220234319
-				LAN = 221.127758133864
-				MNA = 3.01891909328171
-				EPH = 137244.040335661
+				SMA = 6685656.41422332
+				ECC = 0.502815847633682
+				INC = 7.67556692943792
+				LPE = 172.608334997491
+				LAN = 168.052631285425
+				MNA = 3.4264649014556
+				EPH = 1134403.5885585
 				REF = 1
 			}
 			PART
@@ -14288,6 +14399,1042 @@ GAME
 				mainThrottle = 0
 			}
 		}
+		VESSEL
+		{
+			pid = 7bc9c9e0c04a4535aed31d51e3342897
+			name = CS_Minmus_Lander Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 356.400000331923
+			lct = 834648.015940626
+			root = 0
+			lat = -7.95231684734086
+			lon = 15.3608804565389
+			alt = 1757.62685281471
+			hgt = 0.5777347
+			nrm = 0.5000072,5.341364E-06,0.8660216
+			rot = 0.581813,-0.3629329,0.4336482,-0.5845705
+			CoM = -8.693241E-05,-1.61497,-0.0001173037
+			stg = 0
+			prst = False
+			ref = 0
+			ctrl = False
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 77.3065514490724
+				LAN = 252.838873858489
+				MNA = -8.40714670366795
+				EPH = 1709151.78505111
+				REF = 3
+			}
+			PART
+			{
+				name = fuelTank
+				cid = 4293860596
+				uid = 1882792059
+				mid = 2132751990
+				launchID = 18
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, -1
+				attN = bottom, 1
+				mass = 0.25
+				temp = 269.702018457819
+				tempExt = 269.698185517484
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+				flag = Squad/Flags/default
+				rTrf = fuelTank
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 0
+					maxAmount = 180
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 0
+					maxAmount = 220
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = fuelTank
+				cid = 4294375142
+				uid = 370125020
+				mid = 2132751990
+				launchID = 18
+				parent = 0
+				position = 0,-1.87818908691406,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 0
+				attN = bottom, -1
+				mass = 0.25
+				temp = 269.702013104221
+				tempExt = 269.670026010222
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				flag = Squad/Flags/default
+				rTrf = fuelTank
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 115.583242204696
+					maxAmount = 180
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 141.268403346924
+					maxAmount = 220
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 624526.544348496
+				Gear = True, 834630.73594061
+				Light = False, 0
+				RCS = True, 834586.575940568
+				SAS = True, 834586.775940569
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 0
+			}
+		}
+		VESSEL
+		{
+			pid = 66b18f35cad84238af2c0286c82f8ba5
+			name = CS_Minmus_Lander Debris
+			type = Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 110.500000102911
+			lct = 1709006.96505097
+			root = 0
+			lat = 6.88584215797131
+			lon = 287.194622223356
+			alt = 216.81319678959
+			hgt = 2.249961
+			nrm = 0.09732194,0.9944624,-0.03966263
+			rot = -0.06978581,-0.7222241,0.6746733,-0.1354192
+			CoM = 0.0374785,-1.089707,0.04139164
+			stg = 2
+			prst = False
+			ref = 0
+			ctrl = False
+			cPch = 0
+			cHdg = 0
+			cMod = -1
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 11.8481483832204
+				LAN = 252.838873858489
+				MNA = -8.40714670366795
+				EPH = 1709151.78505111
+				REF = 1
+			}
+			PART
+			{
+				name = stackDecoupler
+				cid = 4293888422
+				uid = 3287306838
+				mid = 2132751990
+				launchID = 18
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sepI = 1
+				sidx = 0
+				attm = 0
+				srfN = , -1
+				attN = bottom, 1
+				attN = top, -1
+				mass = 0.05
+				temp = 491.121793468996
+				tempExt = 482.972604634175
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+				flag = Squad/Flags/default
+				rTrf = stackDecoupler
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleDecouple
+					isEnabled = True
+					ejectionForcePercent = 100
+					isDecoupled = True
+					ejectionForcePercent_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 1
+					}
+					EVENTS
+					{
+						Decouple
+						{
+							active = False
+							guiActive = True
+							guiIcon = Decouple
+							guiName = Decouple
+							category = Decouple
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DecoupleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleTestSubject
+					isEnabled = True
+					EVENTS
+					{
+						RunTestEvent
+						{
+							active = False
+							guiActive = True
+							guiIcon = Run Test
+							guiName = Run Test
+							category = Run Test
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+			}
+			PART
+			{
+				name = fuelTank
+				cid = 4293905262
+				uid = 3240739198
+				mid = 2132751990
+				launchID = 18
+				parent = 0
+				position = 0,-1.09869003295898,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sepI = 1
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 0
+				attN = bottom, -1
+				mass = 0.25
+				temp = 489.980614542165
+				tempExt = 483.392428431859
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				flag = Squad/Flags/default
+				rTrf = fuelTank
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 0.00238738410333905
+					maxAmount = 180
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 0.00290731767123775
+					maxAmount = 220
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = solarPanels5
+				cid = 4294726054
+				uid = 492796050
+				mid = 2132751990
+				launchID = 18
+				parent = 1
+				position = -0.620339274406433,-0.509349822998047,3.69036570191383E-08
+				rotation = -1.302701E-15,-0.7071068,-1.302701E-15,0.7071068
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sepI = 1
+				sidx = -1
+				attm = 1
+				sym = 3
+				sym = 4
+				sym = 5
+				srfN = srfAttach, 1
+				mass = 0.005
+				temp = 490.521636235906
+				tempExt = 483.970539250614
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				flag = Squad/Flags/default
+				rTrf = solarPanels5
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (0, 0, 0, 1)
+					stateString = EXTENDED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 0
+					EVENTS
+					{
+						Extend
+						{
+							active = False
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = None
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels5
+				cid = 4294610162
+				uid = 1227927396
+				mid = 2132751990
+				launchID = 18
+				parent = 1
+				position = 0,-0.509349822998047,0.620339155197144
+				rotation = -1.842297E-15,0,7.486784E-23,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sepI = 1
+				sidx = -1
+				attm = 1
+				sym = 2
+				sym = 4
+				sym = 5
+				srfN = srfAttach, 1
+				mass = 0.005
+				temp = 490.545906629313
+				tempExt = 483.984553547541
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				flag = Squad/Flags/default
+				rTrf = solarPanels5
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (0, 0, 0, 1)
+					stateString = EXTENDED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 0
+					EVENTS
+					{
+						Extend
+						{
+							active = False
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = None
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels5
+				cid = 4294610130
+				uid = 3541484258
+				mid = 2132751990
+				launchID = 18
+				parent = 1
+				position = 0.620339334011078,-0.509349822998047,-9.12114046514034E-08
+				rotation = -1.302701E-15,0.7071068,1.302701E-15,0.7071068
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sepI = 1
+				sidx = -1
+				attm = 1
+				sym = 2
+				sym = 3
+				sym = 5
+				srfN = srfAttach, 1
+				mass = 0.005
+				temp = 491.017470174517
+				tempExt = 484.037597133846
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				flag = Squad/Flags/default
+				rTrf = solarPanels5
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (0, 0, 0, 1)
+					stateString = EXTENDED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 0
+					EVENTS
+					{
+						Extend
+						{
+							active = False
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = None
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = solarPanels5
+				cid = 4294610098
+				uid = 4049310028
+				mid = 2132751990
+				launchID = 18
+				parent = 1
+				position = -6.98491930961609E-08,-0.509349822998047,-0.620339214801788
+				rotation = 7.486784E-23,1,1.842297E-15,0
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sepI = 1
+				sidx = -1
+				attm = 1
+				sym = 2
+				sym = 3
+				sym = 4
+				srfN = srfAttach, 1
+				mass = 0.005
+				temp = 490.530222427786
+				tempExt = 484.007992315717
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				flag = Squad/Flags/default
+				rTrf = solarPanels5
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleDeployableSolarPanel
+					isEnabled = True
+					currentRotation = (0, 0, 0, 1)
+					stateString = EXTENDED
+					storedAnimationTime = 0
+					storedAnimationSpeed = 0
+					EVENTS
+					{
+						Extend
+						{
+							active = False
+							guiActive = True
+							guiIcon = Extend Panels
+							guiName = Extend Panels
+							category = Extend Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						Retract
+						{
+							active = False
+							guiActive = True
+							guiIcon = Retract Panels
+							guiName = Retract Panels
+							category = Retract Panels
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ExtendPanelsAction
+						{
+							actionGroup = None
+						}
+						ExtendAction
+						{
+							actionGroup = None
+						}
+						RetractAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = landingLeg1
+				cid = 4294398276
+				uid = 1394486757
+				mid = 2132751990
+				launchID = 18
+				parent = 1
+				position = 0.544044435024261,-1.5632495880127,0.544044375419617
+				rotation = -1.369318E-08,-0.9238796,-5.671899E-09,-0.3826834
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sepI = 1
+				sidx = -1
+				attm = 1
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = 488.144649294328
+				tempExt = 505.772225595369
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				flag = Squad/Flags/default
+				rTrf = landingLeg1
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleLandingLeg
+					isEnabled = True
+					StartDeployed = False
+					savedAnimationTime = 0
+					savedAnimationSpeed = 0
+					savedLegState = 0
+					savedLocalPosition = (9.185067E-05, -0.1199737, -0.731834)
+					suspensionLocked = False
+					StartDeployed_UIFlight
+					{
+						controlEnabled = True
+					}
+					EVENTS
+					{
+						LowerLeg
+						{
+							active = True
+							guiActive = True
+							guiIcon = Lower Legs
+							guiName = Lower Legs
+							category = Lower Legs
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						RaiseLeg
+						{
+							active = False
+							guiActive = True
+							guiIcon = Raise Legs
+							guiName = Raise Legs
+							category = Raise Legs
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						RepairLeg
+						{
+							active = False
+							guiActive = False
+							guiIcon = Repair Leg
+							guiName = Repair Leg
+							category = Repair Leg
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						LockSuspension
+						{
+							active = True
+							guiActive = True
+							guiActiveEditor = True
+							guiIcon = Lock Suspension
+							guiName = Lock Suspension
+							category = Lock Suspension
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+						UnLockSuspension
+						{
+							active = False
+							guiActive = True
+							guiActiveEditor = True
+							guiIcon = UnLock Suspension
+							guiName = UnLock Suspension
+							category = UnLock Suspension
+							guiActiveUnfocused = True
+							unfocusedRange = 4
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						OnAction
+						{
+							actionGroup = Gear
+						}
+						ToggleSuspensionLockAction
+						{
+							actionGroup = None
+						}
+						RaiseAction
+						{
+							actionGroup = None
+						}
+						LowerAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = radialRCSTank
+				cid = 4294578706
+				uid = 2310958528
+				mid = 2132751990
+				launchID = 18
+				parent = 1
+				position = -0.843289136886597,-1.27179908752441,6.3388142734766E-08
+				rotation = 1.302701E-15,0.7071068,-1.302701E-15,0.7071068
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sepI = 1
+				sidx = -1
+				attm = 1
+				sym = 8
+				srfN = srfAttach, 1
+				mass = 0.075
+				temp = 487.672660017204
+				tempExt = 482.85684787867
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				flag = Squad/Flags/default
+				rTrf = radialRCSTank
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = MonoPropellant
+					amount = 7.92241619654208
+					maxAmount = 60
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = radialRCSTank
+				cid = 4294577026
+				uid = 3655569472
+				mid = 2132751990
+				launchID = 18
+				parent = 1
+				position = 0.843289136886597,-1.27179908752441,-1.37079041451216E-07
+				rotation = -1.302701E-15,0.7071068,-1.302701E-15,-0.7071068
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 2
+				dstg = 2
+				sqor = -1
+				sepI = 1
+				sidx = -1
+				attm = 1
+				sym = 7
+				srfN = srfAttach, 1
+				mass = 0.075
+				temp = 487.670278918763
+				tempExt = 482.848749175492
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				flag = Squad/Flags/default
+				rTrf = radialRCSTank
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = MonoPropellant
+					amount = 7.92241619654208
+					maxAmount = 60
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					flowMode = Both
+				}
+			}
+			ACTIONGROUPS
+			{
+				Stage = False, 834634.815940613
+				Gear = False, 1708856.37190154
+				Light = False, 0
+				RCS = True, 834918.355940877
+				SAS = True, 834918.555940878
+				Brakes = False, 0
+				Abort = False, 0
+				Custom01 = False, 0
+				Custom02 = False, 0
+				Custom03 = False, 0
+				Custom04 = False, 0
+				Custom05 = False, 0
+				Custom06 = False, 0
+				Custom07 = False, 0
+				Custom08 = False, 0
+				Custom09 = False, 0
+				Custom10 = False, 0
+			}
+			DISCOVERY
+			{
+				state = -1
+				lastObservedTime = 0
+				lifetime = Infinity
+				refTime = Infinity
+				size = 2
+			}
+			FLIGHTPLAN
+			{
+			}
+			CTRLSTATE
+			{
+				pitch = 0
+				yaw = 0
+				roll = 0
+				trimPitch = 0
+				trimYaw = 0
+				trimRoll = 0
+				mainThrottle = 1
+			}
+		}
 	}
 	ROSTER
 	{
@@ -14305,7 +15452,7 @@ GAME
 			idx = 0
 			CAREER_LOG
 			{
-				flight = 10
+				flight = 11
 				0 = Flight,Kerbin
 				0 = Land,Kerbin
 				0 = Recover
@@ -14373,10 +15520,24 @@ GAME
 				8 = Orbit,Kerbin
 				8 = Land,Kerbin
 				8 = Recover
+				9 = Flight,Kerbin
+				9 = Suborbit,Kerbin
+				9 = Orbit,Kerbin
+				9 = Flyby,Minmus
+				9 = Escape,Minmus
+				9 = Orbit,Minmus
+				9 = Suborbit,Minmus
+				9 = Land,Minmus
+				9 = ExitVessel,Minmus
+				9 = BoardVessel,Minmus
+				9 = Flyby,Kerbin
+				9 = Escape,Kerbin
+				9 = Land,Kerbin
+				9 = Recover
 			}
 			FLIGHT_LOG
 			{
-				flight = 9
+				flight = 10
 			}
 		}
 		KERBAL
@@ -14833,74 +15994,116 @@ GAME
 		}
 		KERBAL
 		{
-			name = Roicca Kerman
-			gender = Female
-			type = Unowned
-			brave = 0.1074736
-			dumb = 0.7237375
-			badS = False
-			tour = False
-			state = Assigned
-			ToD = 0
-			idx = -1
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Nina Kerman
-			gender = Female
-			type = Unowned
-			brave = 0.7658565
-			dumb = 0.4695359
-			badS = False
-			tour = False
-			state = Assigned
-			ToD = 0
-			idx = -1
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Leabella Kerman
-			gender = Female
-			type = Unowned
-			brave = 0.9540032
-			dumb = 0.6343963
-			badS = False
-			tour = False
-			state = Assigned
-			ToD = 0
-			idx = -1
-			CAREER_LOG
-			{
-				flight = 0
-			}
-			FLIGHT_LOG
-			{
-				flight = 0
-			}
-		}
-		KERBAL
-		{
-			name = Froeny Kerman
+			name = Obming Kerman
 			gender = Male
 			type = Unowned
-			brave = 0.5251476
-			dumb = 0.843847
+			brave = 0.7791775
+			dumb = 0.6545683
+			badS = False
+			tour = False
+			state = Assigned
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Katchelle Kerman
+			gender = Female
+			type = Unowned
+			brave = 0.311168
+			dumb = 0.8180788
+			badS = False
+			tour = False
+			state = Assigned
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Bilwell Kerman
+			gender = Male
+			type = Unowned
+			brave = 0.4044724
+			dumb = 0.1490882
+			badS = True
+			tour = False
+			state = Assigned
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Luise Kerman
+			gender = Female
+			type = Unowned
+			brave = 0.2519282
+			dumb = 0.5408275
+			badS = False
+			tour = False
+			state = Assigned
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Hudvan Kerman
+			gender = Male
+			type = Unowned
+			brave = 0.310323
+			dumb = 0.6551652
+			badS = False
+			tour = False
+			state = Assigned
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Mircia Kerman
+			gender = Female
+			type = Unowned
+			brave = 0.9782604
+			dumb = 0.1471696
 			badS = False
 			tour = False
 			state = Assigned
